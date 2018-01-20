@@ -1,0 +1,6 @@
+<p>
+  admin-page works!
+</p>
+<a [routerLink]="['/admin/dash', { outlets: { a: 'dashboard' } }]">dash</a>
+<a [routerLink]="['/admin/dash', { outlets: { a: 'list/1' } }]">list</a>
+<router-outlet name="a"></router-outlet>
